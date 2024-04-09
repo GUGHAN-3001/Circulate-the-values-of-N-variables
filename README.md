@@ -17,11 +17,17 @@ Using the slicing concept rotate the list
 # DEVELOPED BY : GUGHAN S
 # REGISTER NUMBER 212223240043
 
+```
 def circulate():
+
     l=eval(input())
+
     n=int(input())
+
     l=l[n:]+l[:n]
+    
     print("After circulating the values are:",l)
+```
 
 ## Output:
 
