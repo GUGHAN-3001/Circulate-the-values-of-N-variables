@@ -12,10 +12,21 @@ Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
 
-### Step 5: 
-### Step 6: 
 ## Program:
+
+# DEVELOPED BY : GUGHAN S
+# REGISTER NUMBER 212223240043
+
+def circulate():
+    l=eval(input())
+    n=int(input())
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
 
 ## Output:
 
+![alt text](<Screenshot 2024-04-09 112708.png>)
+
+
 ## Result:
+Thus the program has been executed successfully.
